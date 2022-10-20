@@ -27,7 +27,8 @@ logger = logging.getLogger()
 
 def main(token):
     # Connect to the anvil leaderboards server.
-    anvil.server.connect(ANVIL_CLIENT_KEY, url="ws://turing.regium22.com/_/uplink")
+    # TODO: uncomment anvil
+    # anvil.server.connect(ANVIL_CLIENT_KEY, url="ws://turing.regium22.com/_/uplink")
 
     # Run the bot.
     bot = Bot()
