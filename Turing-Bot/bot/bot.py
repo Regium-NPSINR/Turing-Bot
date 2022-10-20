@@ -17,7 +17,7 @@ class Bot(commands.Bot):
 
         # Add debug guilds because registering slash commands take upwards of an hour.
         super().__init__(
-            debug_guilds=[1032523257796104273, 1012219323898679306, 1032618626257268777], intents=intents
+            debug_guilds=[1032523257796104273, 1012219323898679306, 1032618626257268777, 1032677511278104606], intents=intents
         )
 
         # Load all cogs
