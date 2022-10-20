@@ -29,8 +29,7 @@ class CreateTeams(commands.Cog):
                 json.dump(data, data_file)
                 data_file.close()
 
-            # TODO: uncomment anvil
-            # anvil.server.call("add_team", team.name)
+            anvil.server.call("add_team", team.name)
 
             logger.info(f"Created team {team.name}")
 

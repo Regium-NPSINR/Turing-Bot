@@ -106,7 +106,7 @@ class Question(commands.Cog):
         await ctx.user.add_roles(role)
 
         # Sleep for 15 minutes.
-        await asyncio.sleep(60)
+        await asyncio.sleep(900)
 
         # Send the timeout removal message if the timeout is still present.
         try:
