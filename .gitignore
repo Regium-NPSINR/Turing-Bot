@@ -132,8 +132,8 @@ dmypy.json
 poetry.lock
 
 # Questions and data
-Turing-Bot/data
-Turing-Bot/questions
+Turing-Bot/bot/data
+Turing-Bot/bot/questions
 
 # macOS
 .DS_Store
